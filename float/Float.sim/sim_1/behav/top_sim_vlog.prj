@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../Float.srcs/sources_1/new/float.v" --include "../../../Float.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Float.srcs/sources_1/new/num2digit.v" --include "../../../Float.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Float.srcs/sources_1/new/digit2num.v" --include "../../../Float.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Float.srcs/sources_1/new/top.v" --include "../../../Float.srcs/sources_1/new"
+verilog xil_defaultlib  "../../../Float.srcs/sim_1/new/top_sim.v" --include "../../../Float.srcs/sources_1/new"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

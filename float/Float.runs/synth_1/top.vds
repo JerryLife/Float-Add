@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Jun 22 15:51:28 2017
+# Process ID: 2500
+# Log file: D:/VerilogCode/float/Float.runs/synth_1/top.vds
+# Journal file: D:/VerilogCode/float/Float.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+ERROR: [Synth 8-1031] log_2 is not declared [D:/VerilogCode/float/Float.srcs/sources_1/new/h_log_2.vh:6]
+INFO: [Synth 8-2350] module num2digit ignored due to previous errors [D:/VerilogCode/float/Float.srcs/sources_1/new/num2digit.v:23]
+Failed to read verilog 'D:/VerilogCode/float/Float.srcs/sources_1/new/num2digit.v'
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 22 15:51:36 2017...
